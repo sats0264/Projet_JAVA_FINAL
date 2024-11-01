@@ -62,3 +62,62 @@ GymManagementSystem_Desktop/
 ├── bin/                       # Compiled binaries
 ├── target/                    # Target files for building
 └── pom.xml                    # Project Object Model file for Maven
+ ```
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone git@github.com:sats0264/Projet_JAVA_FINAL.git
+   ```
+   ```bash
+   git clone https://github.com/sats0264/Projet_JAVA_FINAL.git
+   ```
+2. Open the project in your favorite IDE (e.g., IntelliJ IDEA or Eclipse).
+
+3. Make sure you have a MySQL database set up and update DatabaseConnection.java with the appropriate database credentials.
+
+4. Build the project using Maven:
+   ```bash
+   mvn clean install
+   ```
+## Usage
+- Run `Main.java` to start the application.
+- Login using the credentials assigned to your user type (Director, Manager, Receptionist).
+- Use the appropriate views to manage clients, view statistics, and perform gym management tasks.
+
+## Technologies Used
+- **Java**: Core language for development.
+- **MySQL**: Database for data storage.
+- **JavaFX/Swing**: For building the desktop application's UI.
+- **Maven**: Build and dependency management.
+- **JDBC**: For database connectivity.
+
+## Contributing
+Contributions are welcome! To contribute:
+
+1. **Fork the repository** by clicking on the “Fork” button at the top right corner of this page.
+2. **Clone the forked** repository to your local machine:
+bash
+```bash
+git clone https://github.com/yourusername/GymManagementSystem_Desktop.git
+```
+3. **Create a new branch** for your feature or bug fix:
+```bash
+git checkout -b feature/NewFeature
+```
+4. **Make your changes** and commit them with descriptive messages:
+```bash
+git commit -m "Add new feature or fix"
+```
+5. **Push the changes** to your forked repository:
+```bash
+git push origin feature/NewFeature
+```
+6. **Submit a pull request** on the original repository.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+```vbnet
+This version focuses on key details like features, installation, usage, and contribution guidelines, keeping the `README.md` clear and concise.
+```
